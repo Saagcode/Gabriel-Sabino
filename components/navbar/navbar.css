@@ -1,0 +1,138 @@
+.navbar-container {
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 20px 50px 20px 0;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0 30px 30px 0;
+    min-height: calc(100vh - 40px);
+    border: 2px solid #cecece7b;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.500);
+}
+
+h2,
+h1,
+p {
+    line-height: 1.5;
+    color: #fff;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin: 50px 0;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 12pt;
+}
+
+figcaption h1 {
+    line-height: 1.5;
+}
+
+figure img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: linear-gradient(123deg, rgba(195, 34, 34, 1) 0%, rgba(247, 152, 46, 1) 100%);
+    border-radius: 20px;
+    padding: 10px 10px 0 10px;
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 30px 0;
+}
+
+.background-shadow .my-name {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.background-shine .my-name {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    color: #000;
+    font-size: 1.1em;
+}
+
+fieldset {
+    padding: 2px 0;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.social-media_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.social-media_content span {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+
+
+.btn_work-together {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+    border: none;
+    font-size: 8pt;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px 5px;
+    background: rgb(195, 34, 34);
+    background: linear-gradient(123deg, rgba(195, 34, 34, 1) 0%, rgba(247, 152, 46, 1) 100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn_work-together p {
+    text-align: center;
+    color: #fff;
+    margin: auto 0;
+    padding: 5px;
+}
+
+.btn_work-together:hover {
+    background: rgba(247, 152, 46, 1);
+    background: linear-gradient(123deg, rgba(247, 152, 46, 1) 0%, rgba(195, 34, 34, 1) 100%);
+    transition: 0.5s ease;
+    scale: 1.05;
+    animation: change 0.5s linear forwards;
+}
+
+@keyframes change {
+    0% {
+        background: rgb(195, 34, 34);
+        background: linear-gradient(123deg, rgba(195, 34, 34, 1) 0%, rgba(247, 152, 46, 1) 100%);
+    }
+
+    100% {
+        background: rgba(247, 152, 46, 1);
+        background: linear-gradient(123deg, rgba(247, 152, 46, 1) 0%, rgba(195, 34, 34, 1) 100%);
+    }
+}
+
+.footer-navbar_container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 0;
+    margin: 70px 0;
+}

@@ -1,0 +1,415 @@
+
+.background-shadow {
+    background-color: #242424;
+    height: max-content;
+    color: #cececec5;
+    transition: 1s ease;
+}
+
+.background-shadow #wrapper #internal .list-item::after {
+    background-color: #242424;
+    transition: 1s ease;
+}
+
+.background-shadow span {
+    color: #ffffffc5;
+}
+
+.background-shadow button {
+    color: #ffffff;
+}
+
+.background-shadow .container-li li:hover {
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+
+.background-shadow .social-media_content span:hover {
+    color: #fff;
+}
+
+.background-shine {
+    background-color: white;
+    height: max-content;
+    transition: 1s ease;
+    color: rgb(73, 73, 73);
+}
+
+.background-shine #wrapper #internal .list-item::after {
+    background-color: #ffffff;
+    transition: 1s ease;
+}
+
+.background-shine h1,
+h2,
+p,
+span,
+.btn-projects,
+.btn-cv {
+    color: #000000c5;
+}
+
+.background-shine .container-li li:hover {
+    color: #000;
+    transition: 0.5s ease;
+}
+
+.background-shine .social-media_content span:hover {
+    color: #cececea1;
+}
+
+
+.background-shine span.fa-download{
+    color: #000;
+}
+
+.container-header_navbar {
+    display: flex;
+    align-items: flex-start;
+}
+
+.fa-moon {
+    align-items: center;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.fa-sun {
+    align-items: center;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.container-config-color {
+    display: flex;
+    position: absolute;
+    top: 42px;
+    justify-content: right;
+    transition: 0.5s ease;
+    opacity: 0.7;
+}
+
+.container-config-color:hover {
+    scale: 1.2;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+.container-header-homepage {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+    height: 100%;
+}
+
+.grid-header-navbar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+/* animacao texto principal */
+.section-container_presentation {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.sub-tittle {
+    line-height: 1.5;
+    display: flex;
+    font-size: 3em;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: left;
+}
+
+.section-container_tittle_sub .tittle {
+    line-height: 1.5;
+    display: flex;
+    font-size: 3em;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: left;
+}
+
+div.section-container_tittle_sub {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    justify-content: center;
+}
+
+#wrapper {
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    justify-content: left;
+    align-items: center;
+    padding: 3px;
+}
+
+#internal {
+    display: flex;
+    justify-content: left;
+    height: 51px;
+}
+
+#internal .list-item {
+    list-style: none;
+    font-size: 45px;
+    font-size: 3em;
+    position: relative;
+    animation: slide 4.8s steps(1) infinite;
+    color: transparent;
+    background: linear-gradient(123deg, rgba(195, 34, 34, 1) 0%, rgba(247, 152, 46, 1) 100%);
+    background-clip: text;
+}
+
+@keyframes slide {
+    0% {
+        top: -23px;
+    }
+
+    10% {
+        top: -23px;
+    }
+
+    20% {
+        top: -23px;
+    }
+
+    30% {
+        top: -23px;
+    }
+
+    50% {
+        top: -96px;
+    }
+
+    70% {
+        top: -96px;
+    }
+
+    90% {
+        top: -96px;
+    }
+
+    100% {
+        top: -96px;
+    }
+
+}
+
+#wrapper #internal .list-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    animation: bar 2.4s steps(20) infinite;
+    background: #242424;
+}
+
+@keyframes bar {
+    0% {
+        border-left: 2px solid rgba(195, 34, 34, 1);
+    }
+
+    40%,
+    60% {
+        border-left: 2px solid rgba(247, 152, 46, 1);
+        left: 105%
+    }
+
+    100% {
+        border-left: 2px solid rgba(247, 152, 46, 1);
+    }
+
+    105% {
+        left: 0;
+    }
+}
+
+/* animacao texto principal */
+
+/* botoes */
+
+.container-btn-projects {
+    font-family: "Quicksand", sans-serif;
+    border: none;
+    background-color: transparent;
+    font-size: 12pt;
+    font-weight: 400;
+    width: 40%;
+}
+.btn-projects {
+    font-family: "Quicksand", sans-serif;
+    margin: 20px 0;
+    width: 100%;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 40px;
+    border: 1px solid #cececea1;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+
+.background-shadow .btn-projects:hover {
+    background-color: #0000002a;
+    scale: 1.05;
+    transition: 0.5 ease;
+}
+
+.background-shine .btn-projects:hover {
+    background-color: #cecece6f;
+    scale: 1.05;
+    transition: 0.5 ease;
+}
+
+.btn-cv {
+    font-family: "Quicksand", sans-serif;
+    margin: 20px 30px;
+    width: 40%;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 40px;
+    border: 1px solid #cececea1;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+
+.background-shadow .btn-cv:hover {
+    background-color: #0000002a;
+    transition: 0.5 ease;
+    scale: 1.05;
+}
+
+.background-shine .btn-cv:hover {
+    background-color: #cecece6f;
+    transition: 0.5 ease;
+    scale: 1.05;
+}
+
+/* botoes */
+
+.container-btn-jobs_cv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: calc(100%/1);
+    height: auto;
+}
+
+
+.container-line {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+}
+
+.line-content {
+    padding: 10px;
+    border: 1px solid #cecece7b;
+    border-radius: 50px;
+    width: 20%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    transition: 3s ease;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.6);
+    position: absolute;
+    top: 320px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url('../../images/tintas-fischer-mobile.jpg');
+    filter: blur(2.5px);
+    animation: stopblur 3s linear forwards;
+}
+
+.container-line-curriculum {
+    display: flex;
+    width: 75%;
+    justify-content: right;
+}
+
+.line-content-curriculum {
+    padding: 10px;
+    border: 1px solid #cecece7b;
+    border-radius: 50px;
+    width: 15%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    transition: 3s ease;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.6);
+    position: absolute;
+    top: 320px;
+    background-position: 10% 0;
+    background-repeat: no-repeat;
+    background-image: url('../../images/curriculo_GabrielSabino-homepage.png');
+    filter: blur(2.5px);
+    animation: stopblur 2s linear forwards;
+}
+
+@keyframes stopblur {
+    100% {
+        filter: blur(0.6px);
+    }
+}
+
+.line {
+    border-top: none;
+    width: 78%;
+    min-height: 5vh;
+    animation: turnon 1s linear forwards;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.line-curriculum {
+    border-top: none;
+    margin: 0 0 0 0px;
+    width: 57%;
+    min-height: 5vh;
+    animation: turnon 1s linear forwards;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@keyframes turnon {
+    0% {
+        border-top: none;
+    }
+
+    25% {
+        border-top: none;
+        border-left: 2px solid #fff;
+    }
+
+    50% {
+        border-top: none;
+        border-bottom: 2px solid #fff;
+    }
+
+    75% {
+        border-top: none;
+        border-right: 2px solid #fff;
+    }
+
+    100% {
+        border: 1px #cecece7b solid;
+        border-top: none;
+    }
+}
