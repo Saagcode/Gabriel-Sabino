@@ -1,0 +1,43 @@
+:root {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1em;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  box-sizing: border-box;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background-shadow a {
+  font-weight: 400;
+  color: #cececec5;
+  text-decoration: none;
+  transition: 0.5 ease;
+}
+
+.background-shine a {
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5 ease;
+}
+
+body, html {
+  margin: 0;
+  min-width: max-content;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
