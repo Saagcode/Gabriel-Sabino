@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './header.css'
 import { Link, useLocation } from 'react-router-dom';
+import '../../media-queries/header/header_media-queries.css'
 
 function Header() {
     const [contactHover, setContactHover] = useState(false);

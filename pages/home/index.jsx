@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import './home.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import '../../media-queries/home/home_media-queries.css'
 
 function home() {
   const [color, setColor] = useState(false);
@@ -23,7 +24,7 @@ function home() {
         // Crie um link <a> para o URL e simule um clique para iniciar o download
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'curriculo_GabrielSabino'; // Nome do arquivo para download
+        a.download = 'curriculo_GabrielSabino.png'; // Nome do arquivo para download
         document.body.appendChild(a);
         a.click();
 
@@ -70,7 +71,7 @@ function home() {
                     </div>
                   </div>
                   <div className='container-btn-jobs_cv'>
-                    <div style={{ display: 'flex' }}>
+                    <div className='btn-organization'>
                       <div className='container-btn-projects'>
                         <Link to='/portfolio'>
                           <button className='btn-projects' onMouseEnter={showPic} onMouseOut={hiddenPic}>

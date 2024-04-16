@@ -9,6 +9,7 @@ import "sweetalert2/dist/sweetalert2.min.css";
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser'
 import { mask, unMask } from 'remask'
+import '../../media-queries/contact/contact_media-queries.css'
 
 function contact() {
   const [name, setUserName] = useState('');

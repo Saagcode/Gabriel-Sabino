@@ -1,0 +1,150 @@
+@media screen and (max-width: 900px) {
+    .btn-cv {
+        margin: 0px 0;
+        font-size: 8pt;
+        width: 40%;
+    }
+
+    .btn-projects {
+        width: 100%;
+        font-size: 8pt;
+    }
+
+    .btn-organization {
+        display: block;
+    }
+
+    .container-header-homepage {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px;
+        height: 100%;
+    }
+
+    .container-btn-jobs_cv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sub-tittle {
+        font-size: 1em;
+    }
+
+    div.section-container_tittle_sub {
+        margin: 20px 0px 0 0;
+        min-height: 45vh;
+    }
+
+    .section-container_tittle_sub .tittle {
+        font-size: 1em;
+    }
+
+    #internal {
+        display: flex;
+        justify-content: left;
+        height: 11px;
+    }
+
+    #internal .list-item {
+        font-size: 1em;
+        position: relative;
+        right: 30px;
+        animation: slide 4.8s steps(1) infinite;
+    }
+
+
+    @keyframes slide {
+        0% {
+            top: -23px;
+        }
+
+        10% {
+            top: -23px;
+        }
+
+        20% {
+            top: -23px;
+        }
+
+        30% {
+            top: -23px;
+        }
+
+        50% {
+            top: -46px;
+        }
+
+        70% {
+            top: -46px;
+        }
+
+        90% {
+            top: -46px;
+        }
+
+        100% {
+            top: -46px;
+        }
+
+    }
+
+    .line-content {
+       margin-top: 270px;
+       width: 35%;
+    }
+
+    .line {
+        border-top: none;
+        width: 78%;
+        min-height: 20vh;
+        animation: turnon 1s linear forwards;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .line-curriculum {
+        border-top: none;
+        width: 78%;
+        min-height: 20vh;
+        animation: turnon 1s linear forwards;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .line-content-curriculum {
+        margin-top: 270px;
+        width: 30%;
+    }
+
+    @keyframes turnon {
+        0% {
+            border-top: none;
+            border-bottom: none;
+        }
+        
+        25% {
+            border-top: none;
+            border-bottom: none;
+            border-left: 2px solid #fff;
+        }
+        
+        50% {
+            border-top: none;
+            border-bottom: none;
+        }
+        
+        75% {
+            border-top: none;
+            border-bottom: none;
+            border-right: none;
+        }
+        
+        100% {
+            border: 1px #cecece7b solid;
+            border-bottom: none;
+            border-right: none;
+            border-top: none;
+        }
+    }
+}

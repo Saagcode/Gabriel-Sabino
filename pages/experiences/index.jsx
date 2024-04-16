@@ -12,6 +12,7 @@ import mysql from '../../logotechs-images/mysql.png'
 import python from '../../logotechs-images/python.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import '../../media-queries/experiences/experiences_media-queries.css'
 
 function experiences() {
   const sectionRef = useRef(null);

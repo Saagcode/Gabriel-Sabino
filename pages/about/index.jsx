@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar'
 import Header from '../../components/header'
 import './about.css'
 import { useState } from 'react'
+import '../../media-queries/about/about_media-queries.css'
 
 function about() {
   const [color, setColor] = useState(false);

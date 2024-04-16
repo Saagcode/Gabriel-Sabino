@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    ul.menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 0;
+        width: 90%;
+    }
+
+    ul.menu p {
+    padding: 5px 10px;
+    margin: 5px 0;
+    width: 100%;
+    }
+
+    .container-btn {
+        display: flex;
+        justify-content: center;
+        margin: 10px 50px;
+        width: 50%;
+    }
+
+    .btn-whatsapp {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,51 @@
+@media screen and (max-width: 900px) {
+    .navbar-container {
+        width: 95%;
+        margin: 20px 0px 0px 0;
+    }
+
+    .navbar-content {
+        display: flex;
+        margin: 30px 0;
+    }
+
+    h2,
+    h1,
+    p {
+        line-height: 1.5;
+        color: #fff;
+        font-size: 8pt;
+    }
+
+    .navbar-content div {
+        font-size: 9pt;
+    }
+
+    figure img {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+
+    fieldset {
+        padding: 2px 0;
+        width: 100%;
+        font-size: 8pt;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .social-media_content span {
+        font-size: 1.5em;
+    }
+
+    .btn_work-together {
+        width: 90%;
+    }
+
+    .btn_work-together p {
+        font-size: 7pt;
+    }
+}

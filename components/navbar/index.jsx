@@ -5,6 +5,7 @@ import user_img from '../../images/user.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { Link } from 'react-router-dom';
+import '../../media-queries/navbar/navbar_media-queries.css'
 
 function Navbar() {
     useEffect(() => {

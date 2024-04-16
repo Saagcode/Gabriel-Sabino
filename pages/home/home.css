@@ -162,7 +162,6 @@ div.section-container_tittle_sub {
 
 #internal .list-item {
     list-style: none;
-    font-size: 45px;
     font-size: 3em;
     position: relative;
     animation: slide 4.8s steps(1) infinite;
@@ -262,6 +261,10 @@ div.section-container_tittle_sub {
     background-color: transparent;
     cursor: pointer;
     transition: 0.5 ease;
+}
+
+.btn-organization {
+    display: flex;
 }
 
 .background-shadow .btn-projects:hover {
