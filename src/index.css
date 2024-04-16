@@ -7,7 +7,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   box-sizing: border-box;
-  background-color: #242424;
   
   
   font-synthesis: none;
@@ -15,6 +14,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.background-shadow :root, html {
+  background-color: #242424;
+}
+
+.background-shine :root, html {
+  background-color: #fff;
+}
+
 
 .background-shadow a {
   font-weight: 400;

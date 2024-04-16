@@ -24,7 +24,9 @@ function home() {
         // Crie um link <a> para o URL e simule um clique para iniciar o download
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'curriculo_GabrielSabino.png'; // Nome do arquivo para download
+        const mimeType = blob.type;
+        a.download = 'curriculo_GabrielSabino'; // Nome do arquivo para download
+        a.type = mimeType
         document.body.appendChild(a);
         a.click();
 
