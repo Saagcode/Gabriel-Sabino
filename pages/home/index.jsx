@@ -13,7 +13,7 @@ function home() {
   }
   function downloadFile() {
     // Crie os dados do arquivo
-    const filePath = "../../images/curriculo_GabrielSabino.png";
+    const filePath = "../../images/curriculo_GabrielSabino.pdf";
 
     fetch(filePath)
       .then(response => response.blob())
