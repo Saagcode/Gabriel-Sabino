@@ -80,7 +80,7 @@ function experiences() {
                     Curso intensivo sobre os fundamentos de Lógica de Programação com Javascript e Algoritmos com Visualg.
                   </p>
                 </div>
-                <div className='course02' data-aos='fade-up' data-aos-duration='2000'>
+                <div className='course02'>
                   <p className='year'>
                     2023-2024
                   </p>

@@ -55,10 +55,10 @@ function about() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam fuga adipisci doloremque ipsum nisi repellat minus vel iusto magnam molestias molestiae necessitatibus odio delectus, veritatis voluptatibus magni omnis reiciendis.
                   </h2>
                 </div>
-                <div className='personal-data' data-aos='fade-right' data-aos-duration='3000' data-aos-offset='5' >
+                <div className='personal-data'>
                   <h2 className='.title-presentation'>
                     Nome
-                    <h1 className='subtitle-presentation'>
+                    <h1 className='subtitle-presentation' >
                       Gabriel Vinicius Moraes Sabino
                     </h1>
                   </h2>
