@@ -3,7 +3,7 @@
         overflow-x: hidden;
         overflow-y: scroll;
         margin-top: 0;
-        height: 60vh;
+        height: 100%;
         max-width: max-content;
     }
 
