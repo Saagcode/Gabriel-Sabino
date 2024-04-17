@@ -65,7 +65,7 @@ function experiences() {
               <h2 className='subtitle'>
                 Meus cursos
               </h2>
-              <div className='container-grid_content'>
+              <div className='container-grid_content' data-aos='fade-up' data-aos-duration='3000'>
                 <div className='course01' data-aos='fade-up' data-aos-duration='1000'>
                   <p className='year'>
                     2023-2024
@@ -94,7 +94,7 @@ function experiences() {
                     Principais tags, Convenções, fundamentos da linguagem de marcação, fundamentos do CSS3, responsividade e integração com Javascript.
                   </p>
                 </div>
-                <div className='course03' data-aos='fade-up' data-aos-duration='3000'>
+                <div className='course03'>
                   <p className='year'>
                     2024-2024
                   </p>

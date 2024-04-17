@@ -56,7 +56,7 @@ function about() {
                   </h2>
                 </div>
                 <div className='personal-data' data-aos='fade-right' data-aos-duration='3000' data-aos-offset='5' >
-                  <h2  className='.title-presentation'>
+                  <h2 className='.title-presentation'>
                     Nome
                     <h1 className='subtitle-presentation'>
                       Gabriel Vinicius Moraes Sabino
