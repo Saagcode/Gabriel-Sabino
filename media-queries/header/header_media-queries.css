@@ -14,6 +14,7 @@
         flex-direction: column;
         padding: 0 0;
         width: 90%;
+        margin: 0 auto;
     }
 
     ul.menu p {
@@ -25,13 +26,12 @@
     .container-btn {
         display: flex;
         justify-content: center;
-        margin: 10px 50px;
+        margin: 10px auto;
         width: 50%;
     }
 
     .btn-whatsapp {
         display: flex;
-        justify-content: center;
         width: 100%;
         margin: 0 auto;
     }

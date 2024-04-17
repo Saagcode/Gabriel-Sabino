@@ -23,6 +23,7 @@ import jjt_learners_mainpage_mobile from '../../images/jjt-learners-mainpage-mob
 import jjt_learners_page_desktop from '../../images/jjt-learners-page-desktop.png'
 import jjt_learners_page_mobile from '../../images/jjt-learners-page-mobile.png'
 import spotify_project_image from '../../images/projeto-spotify.png'
+import '../../media-queries/portfolio/portfolio_media-queries.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 

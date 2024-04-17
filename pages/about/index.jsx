@@ -55,26 +55,26 @@ function about() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam fuga adipisci doloremque ipsum nisi repellat minus vel iusto magnam molestias molestiae necessitatibus odio delectus, veritatis voluptatibus magni omnis reiciendis.
                   </h2>
                 </div>
-                <div className='personal-data'>
-                  <h2 data-aos='fade-right' data-aos-duration='1500' className='.title-presentation'>
+                <div className='personal-data' data-aos='fade-right' data-aos-duration='3000' data-aos-offset='5' >
+                  <h2  className='.title-presentation'>
                     Nome
                     <h1 className='subtitle-presentation'>
                       Gabriel Vinicius Moraes Sabino
                     </h1>
                   </h2>
-                  <h2 data-aos='fade-right' data-aos-duration='2000' className='.title-presentation'>
+                  <h2 className='.title-presentation'>
                     Telefone
                     <h1 className='subtitle-presentation'>
                       +55 (47 9 97722370)
                     </h1>
                   </h2>
-                  <h2 data-aos='fade-right' data-aos-duration='2500' className='.title-presentation'>
+                  <h2 className='.title-presentation'>
                     E-mail
                     <h1 className='subtitle-presentation'>
                       g_131n0@hotmail.com
                     </h1>
                   </h2>
-                  <h2 data-aos='fade-right' data-aos-duration='3000' className='.title-presentation'>
+                  <h2 className='.title-presentation'>
                     Localização
                     <h1 className='subtitle-presentation'>
                       São Bento do Sul, Brasil

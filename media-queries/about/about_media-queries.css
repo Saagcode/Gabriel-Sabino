@@ -1,0 +1,70 @@
+@media screen and (max-width: 900px) {
+    .container-header-about {
+        display: flex;
+        flex-direction: column;
+        overflow-x: none;
+        margin: 0px 2px;
+    }
+
+    .container-header-about .title-presentation {
+        margin: 0px auto;
+        width: 85%;
+        padding: 0 0 10px 0;
+        color: transparent;
+        background: linear-gradient(123deg, rgba(195, 34, 34, 1) 0%, rgba(247, 152, 46, 1) 100%);
+        background-clip: text;
+        text-align: center;
+        font-style: italic;
+        font-size: 1em;
+    }
+
+    .container-description-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-y: scroll;
+        height: 420px;
+        margin: auto 0;
+    }
+
+    .personal-description {
+        margin: 0px 8px 0 8px;
+        text-align: left;
+        width: 93%;
+        padding-right: 0px;
+    }
+
+    .personal-description h2 {
+        font-size: 0.75em;
+        width: 100%;
+    }
+
+    .personal-data {
+        margin: 20px 0px 0 0px;
+        width: 95%;
+        height: 100%;
+        border-top: 3px double #cececea1;
+        border-left: none;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .personal-data .title-presentation,
+    .subtitle-presentation {
+        text-align: left;
+        line-height: 1.5;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .subtitle-presentation h1 {
+        margin: 0 auto;
+    }
+
+    .btn-cv-about {
+        width: 55%;
+        font-size: 0.7em;
+        padding: 8px 0;
+        margin: 0px auto 20px auto;
+    }
+}
