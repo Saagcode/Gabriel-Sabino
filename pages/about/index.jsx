@@ -48,11 +48,10 @@ function about() {
               <div className='container-description-grid'>
                 <div className='personal-description'>
                   <h2 data-aos='zoom-in' data-aos-duration='2000'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque rerum, culpa nemo omnis ad temporibus delectus repellendus ab, voluptatem totam maxime obcaecati aut laboriosam at ea, deleniti quod est?
+                    Acredito que se existir uma palavra que possa me definir deve ser "Porquê" e isso se deve ao fato de que sempre tive curiosidades e decorrente disso dia após dia eu me pergunto, "Porquê?" e principalmente, "Qual é o seu porquê?". Desde muito jovem sempre fui aficionado pelo mundo do design gráfico, utilizei por muito tempo ferramentas como Photoshop e After Effects, porém nunca me indaguei sobre o porquê, apenas gostava daquilo.
                   </h2>
                   <h2 data-aos='zoom-in' data-aos-duration='2000'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptates ipsam obcaecati minus dicta reprehenderit ab repellendus vero debitis est consectetur blanditiis similique nihil delectus, aspernatur facere nisi voluptate ipsa!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam fuga adipisci doloremque ipsum nisi repellat minus vel iusto magnam molestias molestiae necessitatibus odio delectus, veritatis voluptatibus magni omnis reiciendis.
+                    Como sempre fui curioso nas áreas que envolviam tecnologia e me chamavam atenção um bom tempo depois eu conheci a programação e após pesquisas e estudos de forma autodidata encontrei a área do Frontend, isso abriu minha mente de uma forma peculiar. Acredito que após encontrar essa vertente da programação eu posso afirmar que estou bem mais próximo de encontrar o meu porquê, e não exatamente porque o desenvolvimento Frontend me empolga, mas sim porque se tornou a ferramenta para que eu possa alcançar algo maior, e isso não tem a ver com conquistas financeiras ou pessoais. Mas sim, inspirar outras pessoas e acordar todos os dias para ser 1% melhor dia após dia, ter um propósito e transmitir a todos à minha volta o meu porquê através do meu código, que em minha concepção eu o considero uma arte.
                   </h2>
                 </div>
                 <div className='personal-data'>
